@@ -7,6 +7,7 @@ body {
   font-weight: 300;
   background: #fff;
   overflow-x: hidden;
+  padding-top: 61px;
 }
 p {
   font-size: 14px;
@@ -162,13 +163,13 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 .menu-bg {
-  background-color: #999999f2;
+  background-color: #999999d1;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
   padding: 3px;
 }
 .menu-bg .menu-button {
-  top: 0;
+  top: 10px;
 }
 .menu-bg .menu-button:hover {
   cursor: pointer;

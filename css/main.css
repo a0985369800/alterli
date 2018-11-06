@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
 body {
-  font-family: 'Lato', sans-serif;
-  color: #333;
-  font-size: 14px;
-  font-weight: 300;
-  background: #fff;
-  overflow-x: hidden;
-  padding-top: 61px;
+	font-family: "微軟正黑體 Light", Consolas;
+	color: #333;
+	font-size: 14px;
+	font-weight: 300;
+	background: #fff;
+	overflow-x: hidden;
+	padding-top: 61px;
 }
 p {
   font-size: 14px;
@@ -35,7 +35,7 @@ a {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
-  font-family: 'Lato', sans-serif;
+  font-family: "微軟正黑體 Light", Consolas;
 }
 .btn:focus {
   box-shadow: none;
@@ -84,10 +84,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  font-weight: 100;
-  letter-spacing: 1px;
+	font-family: "微軟正黑體 Light", Consolas;
+	font-size: 40px;
+	font-weight: 100;
+	letter-spacing: 1px;
 }
 ul {
   margin: 0;
@@ -945,7 +945,7 @@ a:not([href]):not([tabindex]):hover {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'Lato', sans-serif;
+  font-family: "微軟正黑體 Light", Consolas;
 }
 .form-control:focus {
   box-shadow: none;
@@ -1007,7 +1007,7 @@ a:not([href]):not([tabindex]):hover {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'Lato', sans-serif;
+  font-family: "微軟正黑體 Light", Consolas;
   cursor: pointer;
 }
 /* ==========================================================================
@@ -1135,7 +1135,7 @@ footer {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  font-family: 'Lato', sans-serif;
+  font-family: "微軟正黑體 Light", Consolas;
   cursor: pointer;
 }
 .back-to-top {

@@ -113,7 +113,7 @@ a:not([href]):not([tabindex]):hover {
 }
 .section-header {
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   text-align: center;
 }
 .section-header .section-title {
@@ -1141,18 +1141,18 @@ footer {
 .back-to-top {
   display: none;
   position: fixed;
-  bottom: 18px;
-  right: 15px;
+  bottom: 90px;
+  right: 26px;
 }
 .back-to-top i {
   display: block;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
+  width: 50px;
+  height: 50px;
+  line-height: 52px;
   color: #fff;
-  font-size: 14px;
+  font-size: 24px;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #4676fa;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;

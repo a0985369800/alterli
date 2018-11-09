@@ -1,9 +1,11 @@
 @charset "utf-8";
-.bd-example #carouselExampleCaptions .carousel-inner .carousel-item.active {
-	background-color: #666;
-	background-position: center;
-	background-image: url(http://gremlinworks.co.uk/wp-content/uploads/2017/06/Online-Advertising.jpeg?id=2677);
-}
+/*添加淡入淡出的css*/
+.carousel-fade .carousel-inner .item{ opacity:0; -webkit-transition-property:opacity;-moz-transition-property:opacity ; -ms-transition-property:opacity;-o-transition-property:opacity;transition-property:opacity ;}
+.carousel-fade .carousel-inner .active{ opacity: 1;}
+.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{left: 0;opacity: 0;}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {opacity: 1;}
+
 
 .container .row .col-lg-4.col-md-4.footer-logo {
 	text-align: left;
@@ -31,4 +33,8 @@
 }
 .container .row .col-lg-8.col-md-8.columns #bot_ul_cht li a {
 	color: #FFF;
+}
+#video-area .bd-example #carouselExampleCaptions .carousel-inner .carousel-item.active img {
+	width: 100%;
+    height: auto;
 }

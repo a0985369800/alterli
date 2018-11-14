@@ -38,3 +38,8 @@
 	width: 100%;
     height: auto;
 }
+.overlay-2 {
+	background-image: url(../img/banner-bg-min.jpg);
+	background-repeat:no-repeat;
+}
+#video-area .contents p {font-size: 20px;}

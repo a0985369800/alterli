@@ -534,3 +534,6 @@
 .lnr-pointer-left:before {
 	content: "\e8a9";
 }
+.mdi-hardware-security:before {
+    content: "\e7c9";
+}

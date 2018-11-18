@@ -39,7 +39,19 @@
     height: auto;
 }
 .overlay-2 {
-	background-image: url(../img/banner-bg-min.jpg);
+	/*background-image: url(../img/banner-bg-min.jpg);*/
 	background-repeat:no-repeat;
 }
+@media (max-width: 45em){.overlay-2 {min-width: 100%; height: -webkit-fill-available;}}
 #video-area .contents p {font-size: 20px;}
+
+/*LOGO 判斷顯示大小*/
+@media(min-width: 992px) and (max-width: 1200px){.logo-menu a img {width: 200px;}}
+@media(min-width: 480px) and (max-width: 768px){.logo-menu a img {width: 200px;}}
+@media (max-width: 45em){.logo-menu a img {width: 45%;}}
+
+#video-area .contents h1 span {font-size: 34px;}
+@media (max-width: 990px) and (min-width: 768px){#video-area .contents h1 span {font-size: 20px;}}
+@media (max-width: 45em){#video-area .contents h1 span {font-size: 20px;}}
+
+img {max-width: 100%; width: auto;}

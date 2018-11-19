@@ -310,7 +310,7 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 #video-area .contents {
-  padding: 48px 0 0px;
+  padding: 160px 0 200px;
 }
 #video-area .contents h1 {
   color: #fff;
@@ -327,7 +327,7 @@ a:not([href]):not([tabindex]):hover {
   letter-spacing: 0.5px;
 }
 #video-area .contents .btn {
-  margin: 14px 10px;
+  margin: 50px 10px;
   text-transform: uppercase;
 }
 #video-area .banner_bottom_btn {

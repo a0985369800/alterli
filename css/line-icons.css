@@ -201,9 +201,9 @@
 .lnr-smartphone:before {
 	content: "\e83a";
 }
-.lnr-tablet:before {
+/*.lnr-tablet:before {
 	content: "\e83b";
-}
+}*/
 .lnr-laptop:before {
 	content: "\e83c";
 }
@@ -252,9 +252,9 @@
 .lnr-rocket:before {
 	content: "\e84b";
 }
-.lnr-briefcase:before {
+/*.lnr-briefcase:before {
 	content: "\e84c";
-}
+}*/
 .lnr-bus:before {
 	content: "\e84d";
 }
@@ -450,9 +450,9 @@
 .lnr-frame-contract:before {
 	content: "\e88d";
 }
-.lnr-layers:before {
+/*.lnr-layers:before {
 	content: "\e88e";
-}
+}*/
 .lnr-funnel:before {
 	content: "\e88f";
 }

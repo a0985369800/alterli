@@ -367,7 +367,7 @@ a:not([href]):not([tabindex]):hover {
   width: 60px;
   height: 60px;
   text-align: center;
-  border: 1px solid #4676fa;
+  /*border: 1px solid #4676fa;*/
   display: inline-block;
   border-radius: 5px;
   margin-top: 10px;
@@ -377,9 +377,8 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.3s ease-in-out;
 }
 .item-boxes .icon i {
-  font-size: 30px;
-  line-height: 60px;
-  color: #4676fa;
+	font-size: 30px;
+	line-height: 60px;
 }
 .item-boxes h4 {
   font-size: 20px;

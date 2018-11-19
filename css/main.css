@@ -310,7 +310,7 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 #video-area .contents {
-  padding: 48px 0 0px;
+  padding: 160px 0 200px;
 }
 #video-area .contents h1 {
   color: #fff;
@@ -327,7 +327,7 @@ a:not([href]):not([tabindex]):hover {
   letter-spacing: 0.5px;
 }
 #video-area .contents .btn {
-  margin: 14px 10px;
+  margin: 50px 10px;
   text-transform: uppercase;
 }
 #video-area .banner_bottom_btn {
@@ -367,7 +367,7 @@ a:not([href]):not([tabindex]):hover {
   width: 60px;
   height: 60px;
   text-align: center;
-  border: 1px solid #4676fa;
+  /*border: 1px solid #4676fa;*/
   display: inline-block;
   border-radius: 5px;
   margin-top: 10px;
@@ -377,9 +377,8 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.3s ease-in-out;
 }
 .item-boxes .icon i {
-  font-size: 30px;
-  line-height: 60px;
-  color: #4676fa;
+	font-size: 30px;
+	line-height: 60px;
 }
 .item-boxes h4 {
   font-size: 20px;

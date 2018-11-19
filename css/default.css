@@ -52,6 +52,6 @@
 
 #video-area .contents h1 span {font-size: 34px;}
 @media (max-width: 990px) and (min-width: 768px){#video-area .contents h1 span {font-size: 20px;}}
-@media (max-width: 45em){#video-area .contents h1 span {font-size: 20px;}}
+@media (max-width: 45em){#video-area .contents h1 span {font-size: 12px;}}
 
-img {max-width: 100%; width: auto;}
+.w-100 { max-width: 100%!important; height: 100%;}

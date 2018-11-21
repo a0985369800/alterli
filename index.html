@@ -393,33 +393,33 @@
                 <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">聯絡 <span>我們</span></h2>
                 <hr class="lines wow zoomIn" data-wow-delay="0.3s">
               </div>
-              <form id="contactForm">
+              <form action = “https://formspree.io/ alterli@alterli.com ” method = “POST” > 
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="您的公司名稱、姓名" required data-error="Please enter your email">
                       <div class="help-block with-errors"></div>
                     </div>                                 
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                      <input type="text" placeholder="您的電子信箱" id="email" class="form-control" name="name" required data-error="Please enter your email">
                       <div class="help-block with-errors"></div>
                     </div> 
                   </div>
                    <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                      <input type="text" placeholder="詢問標題" id="msg_subject" class="form-control" required data-error="Please enter your subject">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group"> 
-                      <textarea class="form-control" placeholder="Your Message" rows="11" data-error="Write your message" required></textarea>
+                      <textarea class="form-control" placeholder="詢問內容" rows="11" data-error="Write your message" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button text-center">
-                      <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                      <button class="btn btn-common" id="submit" type="submit">發送</button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div> 
                       <div class="clearfix"></div> 
                     </div>

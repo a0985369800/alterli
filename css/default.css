@@ -69,3 +69,15 @@
 	color: #333333;
 	padding-bottom: 15px;
 }
+
+/*網站功能樣式設計*/
+button.btn.btn-link {
+    color: #0275d8;
+    font-size: 22px;
+}
+.card-body {
+    margin-top: 20px;
+}
+h6 {
+    font-size: 18px;
+}

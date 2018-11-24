@@ -76,8 +76,11 @@ button.btn.btn-link {
     font-size: 22px;
 }
 .card-body {
-    margin-top: 20px;
+    margin: 20px;
 }
 h6 {
     font-size: 18px;
+}
+ul {
+    padding: 0 30px 22px;
 }

@@ -70,6 +70,10 @@
 	padding-bottom: 15px;
 }
 
+h3.wow.fadeInDown.animated {
+    color: #eceeef;
+}
+
 /*網站功能樣式設計*/
 button.btn.btn-link {
     color: #0275d8;
@@ -83,4 +87,7 @@ h6 {
 }
 ul {
     padding: 0 30px 22px;
+}#features .container #unlimited .col-lg-4.col-md-4 .card-img-top img {
+	height: auto;
+	width: 100%;
 }

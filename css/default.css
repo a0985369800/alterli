@@ -74,6 +74,17 @@ h3.wow.fadeInDown.animated {
     color: #eceeef;
 }
 
+/*導覽列下拉式選單*/
+.btn-secondary {
+    color: #292b2c;
+    background-color: #fff0;
+    border-color: #ccc0;
+}
+a#dropdownMenuLink {
+    margin: 0;
+}
+
+
 /*網站功能樣式設計*/
 button.btn.btn-link {
     color: #0275d8;

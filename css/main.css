@@ -776,7 +776,7 @@ a:not([href]):not([tabindex]):hover {
    Counter Section Style
    ========================================================================== */
 .counters {
-  background: url(../img/bg1.jpg) fixed;
+  /*background: url(../img/bg1.jpg) fixed;*/
   position: relative;
 }
 .counters .facts-item {

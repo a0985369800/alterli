@@ -69,7 +69,7 @@
                     </div>
                 </li>
                 <li class="luxbar-item"><a href="../page/planning.html">關於亞特立</a></li>
-                <li class="luxbar-item"><a href="#subscribe">聯絡我們</a></li>
+                <li class="luxbar-item"><a href="#contact">聯絡我們</a></li>
             </ul>
         </div>
     </header>
@@ -163,7 +163,7 @@
           <div class="col-md-9 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">            
             <div class="contact-block">
               <div class="section-header">          
-                <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">聯絡 <span>我們</span></h2>
+                <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">聯絡<span>我們</span></h2>
                 <hr class="lines wow zoomIn" data-wow-delay="0.3s">
               </div>
               <form action = “https://formspree.io/ alterli@alterli.com ” method = “POST” > 

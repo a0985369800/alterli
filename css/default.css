@@ -82,6 +82,7 @@ h3.wow.fadeInDown.animated {
 }
 a#dropdownMenuLink {
     margin: 0;
+	padding-top: 18px;
 }
 .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
     color: #ffffff;

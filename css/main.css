@@ -12,8 +12,7 @@ p {
   font-size: 18px;
   line-height: 26px;
 }
-a:hover,
-a:focus {
+a:hover,a:focus {
   color: #4676fa;
 }
 a {
@@ -316,7 +315,7 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
   font-size: 50px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   line-height: 70px;
 }
 #video-area .contents p {

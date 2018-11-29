@@ -14,7 +14,7 @@
 .luxbar-navigation{display:flex;flex-direction:column;list-style:none;padding-left:0;margin:0}
 .luxbar-menu a,.luxbar-item a{text-decoration:none;color:inherit;cursor:pointer}
 .luxbar-item{height:58px}
-.luxbar-item a{padding: 0 15px 0;margin-top: -80px;display:block}
+.luxbar-item a {padding: 0px 15px 0 15px;margin-top: -83px;display: block;height: 58px;}
 .luxbar-hamburger{padding:18px 24px 18px 24px;position:relative;cursor:pointer}
 .luxbar-hamburger span::before,.luxbar-hamburger span::after{content:'';position:absolute}
 .luxbar-hamburger span::before{margin-top:-8px}.luxbar-hamburger span::after{margin-top:8px}

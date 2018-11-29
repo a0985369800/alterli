@@ -41,6 +41,21 @@
     <link rel="stylesheet" href="../template/animate-custom.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <link rel="stylesheet" href="../css/luxbar.min.css">
+    <!-- 懸浮式選單功能javascript -->
+    <script type="text/javascript">
+	  $(document).ready( function() {
+	    $(".page_container").jumpto({
+	      offset: 550,
+	      firstLevel: "> h2",
+	      secondLevel: "> h3",
+	      navContainer: "#custom-nav",
+	      anchorTopPadding: 140,
+	      showTitle: false,
+	      closeButton: false
+	    });
+	  });
+  	</script> 
+    
     <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
 </head>
@@ -66,6 +81,7 @@
             </ul>
         </div>
     </header>
+    
     <!-- 導覽列 Endt -->
     <!-- 橫幅部分 Start -->
     <!-- InstanceBeginEditable name="EditRegion1" -->
@@ -92,7 +108,7 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">使用<span>美安網路中心</span>好處</h2>
+          <h2 class="section-title wow fadeIn font-weight-bold" data-wow-duration="1000ms" data-wow-delay="0.3s">使用<span>美安網路中心</span>好處</h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
         </div>
         <div class="row">
@@ -111,37 +127,86 @@
     <!-- 特色部分 Start -->
     <section id="features" class="section" data-stellar-background-ratio="0.2">
       <div class="container">
-       <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">網站功能介紹</h2>
+      <div class="main">
+       <div class="section-header"> 
+          <h2 class="section-title wow fadeIn font-weight-bold" data-wow-duration="1000ms" data-wow-delay="0.3s">網站功能介紹</h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <div class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <a href="#unlimited" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">無限支援與升級</a>
-              <a href="#mail" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">電子郵件</a>
-              <a href="#business" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">電子商務</a>
-              <a href="#tailored" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">量身訂做和編輯</a>
-              <a href="#website" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">響應式網站</a>
-              <a href="#visibility" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">能見度和指標</a>
-              <a href="#technology" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">技術規格與安全</a>
-              <a href="#consumer" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">消費者產製內容與互動</a>
-          </div>
         </div>
+            <div class="cd-tabs section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+                <nav>
+                    <ul class="cd-tabs-navigation">
+                        <li><a data-content="unlimited" class="selected" href="#0">無限支援與升級</a></li>
+                        <li><a data-content="mail" href="#0">電子郵件</a></li>
+                        <li><a data-content="business" href="#0">電子商務</a></li>
+                        <li><a data-content="tailored" href="#0">量身訂做和編輯</a></li>
+                        <li><a data-content="website" href="#0">響應式網站</a></li>
+                        <li><a data-content="visibility" href="#0">能見度和指標</a></li>
+                        <li><a data-content="technology" href="#0">技術規格與安全</a></li>
+                        <li><a data-content="consumer" href="#0">消費者產製內容與互動</a></li>
+                    </ul> <!-- cd-tabs-navigation -->
+                </nav>
+
+                <ul class="cd-tabs-content">
+                    <li data-content="unlimited" class="selected">
+                      <h5 class="font-weight-bold">無限支援與升級</h5>
+                      <hr>
+                      <h6 class="font-weight-bold">一流的客戶服務不應該代價高昂</h6>
+                      <p>我們和其他網站設計公司與代管公司不同，我們不向客戶收取技術支援費用，相反地，我們的客戶可以無限地請求我們知識豐富的客戶服務人員協助，客戶服務專員將在您建立網站的每個步驟以及網站推廣過程傾力相助，無論你的問題是什麼，或者有任何疑慮，我們都可以幫助你！</p>
+                      <p><span class="font-weight-bold">全心服務的專員</span><br>我們的客服團隊不像其他一般的技術支援人員，當您聯絡我們的客戶服務時，您將會被轉接到針對你的問題且訓練有素的服務團隊，而我們不只是對電子商務和電子郵件行銷提供支援，因為我們了解社交媒體對你的生意有多重要，我們的服務專員將與你一起建立熱門的社交媒體帳戶，例如Facebook和Twitter，我們知識淵博的專員都針對最新的社交媒體趨勢進行過嚴格的訓練，他們將能在完整的社交媒體行銷流程中幫助你，從建立帳戶到推廣等。</p>
+                      <p><span class="font-weight-bold">即時遠端控制支援</span><br>這項卓越的工具可以在我們客戶支援人員和你的電腦上直接建立連線，以提供比一般更具互動性的服務，你將能夠在你的螢幕上即時觀看客服人員的每一個步驟！</p>
+                      <p><span class="font-weight-bold">免費軟體更新</span><br>我們軟體開發團隊一直持續為這個解決方案增加新功能！作為我們寶貴的客戶，你將能隨時享受到各種最新功能，而這一切都不需要額外費用！</p>
+                      <p><span class="font-weight-bold">多重語言支援</span><br>我們在全球各地有成千上萬的客戶，因此我們了解用不同語言溝通的重要性，除了我們出色的英文服務支援團隊外，我們的技術支援還包括國語（普通話）、廣東話和西班牙文的服務團隊！</p>
+                    </li>
+
+                    <li data-content="mail">
+                        <p>New Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a voluptatibus, ex odit totam cumque nihil eos asperiores ea, labore rerum. Doloribus tenetur quae impedit adipisci, laborum dolorum eaque ratione quaerat, eos dicta consequuntur atque ex facere voluptate cupiditate incidunt.</p>
+
+                        <p>New Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a voluptatibus, ex odit totam cumque nihil eos asperiores ea, labore rerum. Doloribus tenetur quae impedit adipisci, laborum dolorum eaque ratione quaerat, eos dicta consequuntur atque ex facere voluptate cupiditate incidunt.</p>
+                    </li>
+
+                    <li data-content="business">
+                        <p>Gallery Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque tenetur aut, cupiditate, libero eius rerum incidunt dolorem quo in officia.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ipsa vero, culpa doloremque voluptatum consectetur mollitia, atque expedita unde excepturi id, molestias maiores delectus quos molestiae. Ab iure provident adipisci eveniet quisquam ratione libero nam inventore error pariatur optio facilis assumenda sint atque cumque, omnis perspiciatis. Maxime minus quam voluptatum provident aliquam voluptatibus vel rerum. Soluta nulla tempora aspernatur maiores! Animi accusamus officiis neque exercitationem dolore ipsum maiores delectus asperiores reprehenderit pariatur placeat, quaerat sed illum optio qui enim odio temporibus, nulla nihil nemo quod dicta consectetur obcaecati vel. Perspiciatis animi corrupti quidem fugit deleniti, atque mollitia labore excepturi ut.</p>
+                    </li>
+
+                    <li data-content="tailored">
+                        <p>Store Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum recusandae rem animi accusamus quisquam reprehenderit sed voluptates, numquam, quibusdam velit dolores repellendus tempora corrupti accusantium obcaecati voluptate totam eveniet laboriosam?</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, enim, pariatur. Ab assumenda, accusantium! Consequatur magni placeat quae eos dicta, cum expedita sunt facilis est impedit possimus dolorum sequi nostrum nobis sit praesentium molestias nulla laudantium fugit corporis nam ut saepe harum ipsam? Debitis accusantium, omnis repudiandae modi, distinctio illo voluptatibus aperiam odio veritatis, quam perferendis eaque ullam. Temporibus tempore ad voluptates explicabo ea sit deleniti ipsum quos dolores tempora odio, ab corporis molestiae, eaque optio, perferendis! Cumque libero quia modi! Totam magni rerum id iusto explicabo distinctio, magnam, labore sed nemo expedita velit quam, perspiciatis non temporibus sit minus voluptatum. Iste, cumque sunt suscipit facere iusto asperiores, ullam dolorum excepturi quidem ea quibusdam deserunt illo. Nesciunt voluptates repellat ipsam.</p>
+                    </li>
+
+                    <li data-content="website">
+                        <p>Settings Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nam magni, ullam nihil a suscipit, ex blanditiis, adipisci tempore deserunt maiores. Nostrum officia, ratione enim eaque nihil quis ea, officiis iusto repellendus. Animi illo in hic, maxime deserunt unde atque a nesciunt? Non odio quidem deserunt animi quod impedit nam, voluptates eum, voluptate consequuntur sit vel, et exercitationem sint atque dolores libero dolorem accusamus ratione iste tenetur possimus excepturi. Accusamus vero, dignissimos beatae tempore mollitia officia voluptate quam animi vitae.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ipsam eum reprehenderit minima at sapiente ad ipsum animi doloremque blanditiis unde omnis, velit molestiae voluptas placeat qui provident ab facilis.</p>
+                    </li>
+
+                    <li data-content="visibility">
+                        <p>Trash Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque a iure nostrum animi praesentium, numquam quidem, nemo, voluptatem, aspernatur incidunt. Fugiat aspernatur excepturi fugit aut, dicta reprehenderit temporibus, nobis harum consequuntur quo sed, illum.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima doloremque optio tenetur, natus voluptatum error vel dolorem atque perspiciatis aliquam nemo id libero dicta est saepe laudantium provident tempore ipsa, accusamus similique laborum, consequatur quia, aut non maiores. Consectetur minus ipsum aliquam pariatur dolorem rerum laudantium minima perferendis in vero voluptatem suscipit cum labore nemo explicabo, itaque nobis debitis molestias officiis? Impedit corporis voluptates reiciendis deleniti, magnam, fuga eveniet! Velit ipsa quo labore molestias mollitia, quidem, alias nisi architecto dolor aliquid qui commodi tempore deleniti animi repellat delectus hic. Alias obcaecati fuga assumenda nihil aliquid sed vero, modi, voluptatem? Vitae voluptas aperiam nostrum quo harum numquam earum facilis sequi. Labore maxime laboriosam omnis delectus odit harum recusandae sint incidunt, totam iure commodi ducimus similique doloremque! Odio quaerat dolorum, alias nihil quam iure delectus repellendus modi cupiditate dolore atque quasi obcaecati quis magni excepturi vel, non nemo consequatur, mollitia rerum amet in. Nesciunt placeat magni, provident tempora possimus ut doloribus ullam!</p>
+                    </li>
+                    <li data-content="technology">
+                        <p>Trash Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque a iure nostrum animi praesentium, numquam quidem, nemo, voluptatem, aspernatur incidunt. Fugiat aspernatur excepturi fugit aut, dicta reprehenderit temporibus, nobis harum consequuntur quo sed, illum.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima doloremque optio tenetur, natus voluptatum error vel dolorem atque perspiciatis aliquam nemo id libero dicta est saepe laudantium provident tempore ipsa, accusamus similique laborum, consequatur quia, aut non maiores. Consectetur minus ipsum aliquam pariatur dolorem rerum laudantium minima perferendis in vero voluptatem suscipit cum labore nemo explicabo, itaque nobis debitis molestias officiis? Impedit corporis voluptates reiciendis deleniti, magnam, fuga eveniet! Velit ipsa quo labore molestias mollitia, quidem, alias nisi architecto dolor aliquid qui commodi tempore deleniti animi repellat delectus hic. Alias obcaecati fuga assumenda nihil aliquid sed vero, modi, voluptatem? Vitae voluptas aperiam nostrum quo harum numquam earum facilis sequi. Labore maxime laboriosam omnis delectus odit harum recusandae sint incidunt, totam iure commodi ducimus similique doloremque! Odio quaerat dolorum, alias nihil quam iure delectus repellendus modi cupiditate dolore atque quasi obcaecati quis magni excepturi vel, non nemo consequatur, mollitia rerum amet in. Nesciunt placeat magni, provident tempora possimus ut doloribus ullam!</p>
+                    </li>
+                    <li data-content="consumer">
+                        <p>Trash Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque a iure nostrum animi praesentium, numquam quidem, nemo, voluptatem, aspernatur incidunt. Fugiat aspernatur excepturi fugit aut, dicta reprehenderit temporibus, nobis harum consequuntur quo sed, illum.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima doloremque optio tenetur, natus voluptatum error vel dolorem atque perspiciatis aliquam nemo id libero dicta est saepe laudantium provident tempore ipsa, accusamus similique laborum, consequatur quia, aut non maiores. Consectetur minus ipsum aliquam pariatur dolorem rerum laudantium minima perferendis in vero voluptatem suscipit cum labore nemo explicabo, itaque nobis debitis molestias officiis? Impedit corporis voluptates reiciendis deleniti, magnam, fuga eveniet! Velit ipsa quo labore molestias mollitia, quidem, alias nisi architecto dolor aliquid qui commodi tempore deleniti animi repellat delectus hic. Alias obcaecati fuga assumenda nihil aliquid sed vero, modi, voluptatem? Vitae voluptas aperiam nostrum quo harum numquam earum facilis sequi. Labore maxime laboriosam omnis delectus odit harum recusandae sint incidunt, totam iure commodi ducimus similique doloremque! Odio quaerat dolorum, alias nihil quam iure delectus repellendus modi cupiditate dolore atque quasi obcaecati quis magni excepturi vel, non nemo consequatur, mollitia rerum amet in. Nesciunt placeat magni, provident tempora possimus ut doloribus ullam!</p>
+                    </li>
+                </ul> <!-- cd-tabs-content -->
+            </div>
+            
              <div class="row section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" id="unlimited" style="padding-top: 80px;">
-                 <div class="col-lg-4 col-md-4 wow fadeInLeft animated" data-wow-offset="10"><img src="../img/dmp/unlimited icon-min.png"></div>
-                 <div class="clo-lg-8 col-md-8 wow fadeInRight animated" data-wow-offset="10">
-                  <h5>無限支援與升級</h5>
-                  <hr>
-                  <h6 class="font-weight-bold">一流的客戶服務不應該代價高昂</h6>
-                  <p>我們和其他網站設計公司與代管公司不同，我們不向客戶收取技術支援費用，相反地，我們的客戶可以無限地請求我們知識豐富的客戶服務人員協助，客戶服務專員將在您建立網站的每個步驟以及網站推廣過程傾力相助，無論你的問題是什麼，或者有任何疑慮，我們都可以幫助你！</p>
-                  <p><span class="font-weight-bold">全心服務的專員</span><br>我們的客服團隊不像其他一般的技術支援人員，當您聯絡我們的客戶服務時，您將會被轉接到針對你的問題且訓練有素的服務團隊，而我們不只是對電子商務和電子郵件行銷提供支援，因為我們了解社交媒體對你的生意有多重要，我們的服務專員將與你一起建立熱門的社交媒體帳戶，例如Facebook和Twitter，我們知識淵博的專員都針對最新的社交媒體趨勢進行過嚴格的訓練，他們將能在完整的社交媒體行銷流程中幫助你，從建立帳戶到推廣等。</p>
-                  <p><span class="font-weight-bold">即時遠端控制支援</span><br>這項卓越的工具可以在我們客戶支援人員和你的電腦上直接建立連線，以提供比一般更具互動性的服務，你將能夠在你的螢幕上即時觀看客服人員的每一個步驟！</p>
-                  <p><span class="font-weight-bold">免費軟體更新</span><br>我們軟體開發團隊一直持續為這個解決方案增加新功能！作為我們寶貴的客戶，你將能隨時享受到各種最新功能，而這一切都不需要額外費用！</p>
-                  <p><span class="font-weight-bold">多重語言支援</span><br>我們在全球各地有成千上萬的客戶，因此我們了解用不同語言溝通的重要性，除了我們出色的英文服務支援團隊外，我們的技術支援還包括國語（普通話）、廣東話和西班牙文的服務團隊！</p>
-                 </div>
+                 
              </div>
              <div class="row section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" id="mail" style="padding-top: 80px;">
                 <div class="col-lg-4 col-md-4 wow fadeInLeft animated" data-wow-offset="10"><img class="card-img-top" src="../img/dmp/mail icon-min.png"></div>
                 <div class="clo-lg-8 col-md-8 wow fadeInRight animated" data-wow-offset="10">
-                 <h5>電子郵件</h5>
+                 <h5 class="font-weight-bold">電子郵件</h5>
                  <hr>
                  <h6 class="font-weight-bold">用這些強大的工具與客戶保持聯繫</h6>
                  <p><span class="font-weight-bold">客戶總管</span><br>整理並管理你所有客戶、供應商、生意上的夥伴的聯絡資訊，一旦當你建立你的客戶資料庫，你將能建立並發送針對特定客戶的電子報，宣佈新產品、拍賣、或任何的活動、促銷！</p>
@@ -161,7 +226,7 @@
              <div class="row section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" id="business" style="padding-top: 80px;">
                  <div class="col-lg-4 col-md-4 wow fadeInLeft animated" data-wow-offset="10"><img src="../img/dmp/business icon-min.png"></div>
                  <div class="clo-lg-8 col-md-8 wow fadeInRight animated" data-wow-offset="10">
-                 <h5>電子商務</h5>
+                 <h5 class="font-weight-bold">電子商務</h5>
                  <hr>
                  <h6 class="font-weight-bold">透過網站建立利潤豐厚的獲利管道</h6>
                  <p>你可以建立獨特而強大的產品目錄，功能包括虛擬購物車、商家帳戶、進階定價系統、付款選項、訂單處理工具、個人化運送方式，還能處理稅金和稅金計算方式！在這個產品目錄中，你可以展示數以千計的產品，而且每個產品都有不同的展示選項，例如提供多張產品照片、產品分類/敘述、多角度觀看產品照片、客戶自訂的希望購買清單、產品評論、價格規則、折扣等，還可以同時比較多個產品。</p>
@@ -172,7 +237,7 @@
              <div class="row section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" id="tailored" style="padding-top: 80px;">
                 <div class="col-lg-4 col-md-4 wow fadeInLeft animated" data-wow-offset="10"><img src="../img/dmp/tailored icon-min.png"></div>
                 <div class="clo-lg-8 col-md-8 wow fadeInRight animated" data-wow-offset="10">
-                <h5>量身訂做和編輯</h5>
+                <h5 class="font-weight-bold">量身訂做和編輯</h5>
                 <hr>
                 <h6 class="font-weight-bold">這是你的網路門面</h6>
                 <p>我們的網站設計師和行銷專家花費無數的時間研究什麼是最成功的網站，幫助你建立最有效的專業網站版面和設計，而透過這個簡單易用的平台，無論你想要如何改變你網站的外觀感覺，你都可以輕易地達成！</p>
@@ -185,7 +250,7 @@
              <div class="row section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" id="website" style="padding-top: 80px;">
                  <div class="col-lg-4 col-md-4 wow fadeInLeft animated" data-wow-offset="10"><img src="../img/dmp/responsive icon-min.png"></div>
                  <div class="clo-lg-8 col-md-8 wow fadeInRight animated" data-wow-offset="10">
-                 <h5>響應式網站</h5>
+                 <h5 class="font-weight-bold">響應式網站</h5>
                  <hr>
                  <h6 class="font-weight-bold">Look better and more functional than ever.</h6>
                  <p>無論網站訪客使用電腦、筆記型電腦、平板電腦或智慧型手機，我們的響應式網站都可自動調整網站可用性與寬度，您只需建立、維護並更新單一網站，不需再費心保持行動網站與主要網站外觀一致，讓您可以把心力放在您的生意上，另外也不需擔心由於多個電腦或行動網站導致分散搜尋引擎最佳化的努力，這又是我們幫您提昇網站在Google上搜尋結果的另一個措施。</p>
@@ -196,7 +261,7 @@
              <div class="row section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" id="visibility" style="padding-top: 80px;">
                 <div class="col-lg-4 col-md-4 wow fadeInLeft animated" data-wow-offset="10"><img src="../img/dmp/visibility icon-min.png"></div>
                 <div class="clo-lg-8 col-md-8 wow fadeInRight animated" data-wow-offset="10">
-                 <h5>能見度和指標</h5>
+                 <h5 class="font-weight-bold">能見度和指標</h5>
                  <hr>
                  <h6 class="font-weight-bold">讓你的生意受到關注並衡量你的成功</h6>
                  <p>如果客戶找不到你的網站，那麼無論網站如何令人印象深刻也無關緊要！我們的網站推廣功能幫助你在網路上取得曝光，引導您進行網站搜尋引擎最佳化以及搜尋引擎提交程序。</p>
@@ -210,7 +275,7 @@
              <div class="row section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" id="technology" style="padding-top: 80px;">
                  <div class="col-lg-4 col-md-4 wow fadeInLeft animated" data-wow-offset="10"><img src="../img/dmp/technology icon-min.png"></div>
                  <div class="clo-lg-8 col-md-8 wow fadeInRight animated" data-wow-offset="10">
-                 <h5>技術規格與安全</h5>
+                 <h5 class="font-weight-bold">技術規格與安全</h5>
                  <hr>
                  <h6 class="font-weight-bold">放心…而不需額外費用</h6>
                  <p>你的網站將由一個非常安全的機房設施代管，我們使用配備Intel Xeon處理器的高效能Dell PowerEdge伺服器，你的網站流量將透過叢集也高容錯性的Dell伺服器、Cisco路由器和Network Appliance儲存系統達成負載平衡。</p>
@@ -234,7 +299,7 @@
              <div class="row section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" id="consumer" style="padding-top: 80px;">
                 <div class="col-lg-4 col-md-4 wow fadeInLeft animated" data-wow-offset="10"><img src="../img/dmp/consumer icon-min.png"></div>
                 <div class="clo-lg-8 col-md-8 wow fadeInRight animated" data-wow-offset="10">
-                 <h5>消費者產製內容與互動</h5>
+                 <h5 class="font-weight-bold">消費者產製內容與互動</h5>
                  <hr>
                  <h6 class="font-weight-bold">吸引你的客戶</h6>
                  <p><spqn class="font-weight-bold">電子郵件行銷活動</spqn><br>使用我們精美的電子郵件範本，例如適合不同季節風格的電子報、企業宣示、特殊活動以及促銷、生日以及其他許多常見節日等，來在正確的時間與正確的客戶互動，您也可以透過我們的電子郵件範本建立您自己的的電子報行銷活動，並針對您所選擇的客戶進行推廣。</p>
@@ -252,7 +317,7 @@
     <section id="download" class="section">
         <div class="container">
             <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">為您打造客製化<span>全方位數位行銷解決方案</span>功能清單</h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><span>全方位數位行銷解決方</span>功能清單</h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
           
         </div>
@@ -260,7 +325,7 @@
           <div class="card wow fadeInUp" data-wow-delay="0.3s">
             <img class="card-img-top" src="../img/dmp/Web Design-min.jpg">
             <div class="card-body">
-              <h5 class="card-title text-center">網頁設計</h5>
+              <h6 class="card-title text-center">網頁設計</h6>
               <ol class="card-text">
                     <li>歡迎頁-動態設計</li>
                     <li>客製化首頁及內頁</li>
@@ -276,7 +341,7 @@
           <div class="card wow fadeInUp" data-wow-delay="0.3s">
             <img class="card-img-top" src="../img/dmp/Marketing planning-min.jpg">
             <div class="card-body">
-              <h5 class="card-title text-center">行銷規劃</h5>
+              <h6 class="card-title text-center">行銷規劃</h6>
               <ol class="card-text">
                 <li>關鍵字設定及SEO收尋引擎優化</li>
                 <li>促銷模式</li>
@@ -289,7 +354,7 @@
           <div class="card wow fadeInUp" data-wow-delay="0.3s">
             <img class="card-img-top" src="../img/dmp/E-commerce-min.jpg">
             <div class="card-body">
-              <h5 class="card-title text-center">電子商務</h5>
+              <h6 class="card-title text-center">電子商務</h6>
               <ol class="card-text">
                     <li>電子郵件信箱：1G(以數量單位計至無限)</li>
                     <li>會員資料庫管理系統</li>
@@ -309,7 +374,7 @@
           <div class="card wow fadeInUp" data-wow-delay="0.3s">
             <img class="card-img-top" src="../img/dmp/System equipment-min.jpg">
             <div class="card-body">
-              <h5 class="card-title text-center">系統配備</h5>
+              <h6 class="card-title text-center">系統配備</h6>
               <ol class="card-text">
                     <li>響應式網站設計RWD(Responsive Web Design)：<br>完美呈現桌面、筆電、手機及平板介面</li>
                     <li>網站空間：500MB、1G、5G、10G</li>
@@ -327,7 +392,7 @@
           <div class="card wow fadeInUp" data-wow-delay="0.3s">
             <img class="card-img-top" src="../img/dmp/other service-min.jpg">
             <div class="card-body">
-              <h5 class="card-title text-center">其他服務</h5>
+              <h6 class="card-title text-center">其他服務</h6>
               <ol class="card-text">
                     <li>網站代管維護：包含每月商品目錄上架及網站修改</li>
                     <li>網頁美工製作：包含Banner圖及商品介紹圖</li>
@@ -404,10 +469,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 footer-logo">
-			  	<img style="width: 30%" src="../img/footer-logo-min.png" alt="亞特立logo">
+			  	<img style="width: 40%;" src="../img/footer-logo-min.png" alt="亞特立logo">
           </div>
           <div class="col-lg-12 col-md-12 columns">
-            <p style="color: #FFFFFF;">All copyrights reserved &copy; 2018 - Designed by Alterli</p>
+            <p>All copyrights reserved &copy; 2018 - Designed by Alterli</p>
           </div>
         </div>
       </div>
@@ -418,6 +483,8 @@
     <a href="#" class="back-to-top">
         <i class="lnr lnr-arrow-up"></i>
     </a>
+    
+    
 
 
     <!-- 首先是jQuery，然後是Tether，然後是Bootstrap JS。 -->
@@ -442,6 +509,9 @@
     <script src="../js/form-validator.min.js"></script>
     <script src="../js/contact-form-script.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/jquery-2.1.0.min.js"></script>
+    <script src="../js/main2.js"></script>
 
     <!-- Tawk.to腳本 Script -->
     <script type="text/javascript">
@@ -459,6 +529,7 @@
 
     </script>
     <!-- Tawk.to腳本 End -->
+    
 
 
 </body>

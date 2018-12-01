@@ -51,7 +51,7 @@
 	font-size: 30px;
 	color: #fff;
 	background: transparent;
-	/*top: 15px;*/
+	top: 15px;
 	right: 0;
 	line-height: 42px;
 	text-align: center;
@@ -74,14 +74,14 @@
 }
 
 .logo-menu{
-	/*padding: 15px 0;*/
+	padding: 15px 0;
 }
 .menu-bg .logo-menu{
 	padding: 6px 0;
 }
 .menu-bg .menu-button{
 	top: 5px;
-	color: #ffffff;
+	color: #333;
 }
 
 /* Menu */

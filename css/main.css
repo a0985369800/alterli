@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
 body {
-  font-family: 'Lato', sans-serif;
-  color: #333;
-  font-size: 14px;
-  font-weight: 300;
-  background: #fff;
-  overflow-x: hidden;
+	font-family: "微軟正黑體 Light", Consolas;
+	color: #333;
+	font-size: 14px;
+	font-weight: 300;
+	background: #fff;
+	overflow-x: hidden;
 }
 p {
   font-size: 14px;
@@ -83,7 +83,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "微軟正黑體 Light", Consolas;
   font-size: 40px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -162,7 +162,7 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 .menu-bg {
-  background-color: #fff!important;
+  background-color: #636c72!important;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
   padding: 3px;
@@ -1138,10 +1138,10 @@ footer {
   cursor: pointer;
 }
 .back-to-top {
-  display: none;
-  position: fixed;
-  bottom: 18px;
-  right: 15px;
+    display: none;
+    position: fixed;
+    bottom: 88px;
+    right: 34px;
 }
 .back-to-top i {
   display: block;

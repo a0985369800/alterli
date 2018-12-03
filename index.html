@@ -673,7 +673,11 @@
     
     <!-- 頁籤 Start -->
     <script type="text/javascript">
-      $('#marketing,#morse a').on('click', function (e) {
+      $('#marketing a').on('click', function (e) {
+          e.preventDefault()
+          $(this).tab('show')
+        })
+      $('#morse a').on('click', function (e) {
           e.preventDefault()
           $(this).tab('show')
         })

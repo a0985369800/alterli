@@ -1,0 +1,48 @@
+.video-promo {background: url(../img/marketing/marketing-bg-min.jpg) fixed;background-position: cover;position: relative;}
+.partner {background: url(../img/partner/anna-banner-min.jpg);width: 100%;height: 100%;padding: 80px;}
+.partner h2.wow.fadeIn.animated {font-size: 40px;font-weight: 600;}
+#line img {width: 60%;padding-bottom: 15px;}
+/*數位行銷產品介紹區塊*/
+#marketing .list-group img {width: 20%;margin-right: 5px;}
+#marketing h5 {font-size: 30px;font-weight: 600;}
+#marketing a {background: #7676767d;color: #fff;}
+#marketing #nav-tabContent img {margin: 0 30% 0 30%;}
+/*MORSE CONNECT區塊*/
+#morse .list-group img {width: 15%;margin-right: 5px;}
+#morse h5 {font-size: 30px;font-weight: 600;}
+#morse a {background: #ccc;color: #fff;}
+#morse a p {margin: 10px;}
+#morse #nav-tabContent img {margin: 0 30% 0 30%;}
+/*footer區塊*/
+footer img {width: 40%;}
+footer p {color: #fff;margin-top: 20px;}
+
+/*首頁頁面調整(手機畫面)*/
+@media (max-width: 480px) and (min-width: 320px){
+    /*整題顯示效果*/
+    p {font-size: 14px;}
+    /*首頁大圖標題區塊*/
+    h1.wow.fadeInDown.animated {padding-top: 60px;}
+    h2.lead.wow.fadeIn.animated {font-size: 20px;padding-top: 0px;}
+    /*關於亞特立區塊*/
+    h6.font-weight-bold {font-size: 14px;}
+    /*數位行銷產品介紹區塊*/
+    #marketing img {width: 50%;}
+    #marketing .list-group img {width: 100%;margin-right: 5px;}
+    #marketing h5 {font-size: 20px;font-weight: 600;}
+    #marketing a p {display: none;}
+    /*夥伴商店區塊*/
+    h2.wow.fadeIn.animated {font-size: 28px;font-weight: 600;}
+    /*MORSE CONNECT區塊*/
+    #morse h5 {font-size: 14px;}
+    #morse img {width: 50%;}
+    #morse .list-group img {width: 100%;margin-right: 5px;}
+    #morse h5 {font-size: 20px;font-weight: 600;}
+    #morse a p {display: none;}
+    /*line@區塊*/
+    #line img {width: 100%;padding-bottom: 15px;}
+    #line h2 {font-size: 18px;}
+    /*footer區塊*/
+    footer img {width: 95%;}
+    footer p {font-size: 14px;}
+}

@@ -67,7 +67,7 @@
 	overflow: hidden;
 	font-size: 25px;
 	border: none;
-	background: #ffffff52;
+	background: #ffffff;
 	color: #000;
 	line-height: 48px;
 	box-shadow: -1px 2px 3px 0px rgba(0, 0, 0, 0.16), 0 0px 0px 0px rgba(0, 0, 0, 0.12);
@@ -91,7 +91,7 @@
     width: 260px;
     right: 0;
     height: 100%;
-    background: #ffffffd9;
+    background: #ffffff;
     padding: 1.5em 0.5em 0;
     font-size: 1.15em;
     -webkit-transform: translate3d(320px,0,0);

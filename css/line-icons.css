@@ -365,6 +365,7 @@
 }
 .lnr-menu:before {
 	content: "\e871";
+    color: #ffffff;
 }
 .lnr-list:before {
 	content: "\e872";

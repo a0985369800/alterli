@@ -6,7 +6,6 @@
 #marketing .list-group img {width: 20%;margin-right: 5px;}
 #marketing h5 {font-size: 30px;font-weight: 600;}
 #marketing a {background: #7676767d;color: #fff;}
-#marketing #nav-tabContent img {margin: 0 30% 0 30%;}
 /*MORSE CONNECT區塊*/
 #morse .list-group img {width: 15%;margin-right: 5px;}
 #morse h5 {font-size: 30px;font-weight: 600;}
@@ -22,8 +21,8 @@ footer p {color: #fff;margin-top: 20px;}
     /*整題顯示效果*/
     p {font-size: 14px;}
     /*首頁大圖標題區塊*/
-    h1.wow.fadeInDown.animated {padding-top: 60px;}
-    h2.lead.wow.fadeIn.animated {font-size: 20px;padding-top: 0px;}
+    #video-area .contents h1 {padding-top: 70px;}
+    #video-area h2 {font-size: 18px;}
     /*關於亞特立區塊*/
     h6.font-weight-bold {font-size: 14px;}
     /*數位行銷產品介紹區塊*/
@@ -41,8 +40,11 @@ footer p {color: #fff;margin-top: 20px;}
     #morse a p {display: none;}
     /*line@區塊*/
     #line img {width: 100%;padding-bottom: 15px;}
-    #line h2 {font-size: 18px;}
+    #line h2 {font-size: 16px;margin-top: -20px;}
     /*footer區塊*/
     footer img {width: 95%;}
     footer p {font-size: 14px;}
+    /*移動到最上面按鈕*/
+    @media (max-width: 480px) and (min-width: 320px)
+    .back-to-top {display: none;position: fixed;bottom: 100px;right: 40px;}
 }

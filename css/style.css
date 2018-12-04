@@ -1,3 +1,5 @@
+#video-area .contents h1{text-shadow: black 0.1em 0.1em 0.2em;}
+#video-area h2 {font-size: 40px;margin-top: -22px;color: #fff;text-shadow: black 0.1em 0.1em 0.2em;font-weight: 600;}
 .video-promo {background: url(../img/marketing/marketing-bg-min.jpg) fixed;background-position: cover;position: relative;}
 .partner {background: url(../img/partner/anna-banner-min.jpg);width: 100%;height: 100%;padding: 80px;}
 .partner h2.wow.fadeIn.animated {font-size: 40px;font-weight: 600;}
@@ -16,13 +18,56 @@
 footer img {width: 40%;}
 footer p {color: #fff;margin-top: 20px;}
 
+/*平板和桌機小螢幕*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #video-area .contents {padding: 147px 0;}
+    #video-area .contents h1 {font-size: 50px;}
+    #video-area .contents h2 {font-size: 34px;margin-top: -15px;}
+    #marketing .list-group img {width: 100%;/* margin-right: 5px; */}
+    #marketing a p {display: none;}
+    #partner h2 {font-size: 38px;}
+    #morse .list-group img {width: 80%;/* margin-right: 5px; */}
+    #morse a p {display: none;}
+    #morse h5 {font-size: 24px;}
+    #line h2.lead {font-size: 22px;padding: 0px;}
+    footer img {width: 60%;}
+    
+}
+
+/*小平板*/
+@media (min-width: 714px) and (max-width: 768px) {
+    #video-area .contents {padding: 86px 0;}
+    #video-area .contents h1 {font-size: 38px;font-weight: 600;margin-top: 58px;margin-bottom: 0px;line-height: 70px;}
+    #video-area .contents h2 {font-size: 32px;margin-top: 0px;}
+    #marketing .list-group img {width: 100%;/* margin-right: 5px; */}
+    #marketing a p {display: none;}
+    #partner h2 {font-size: 38px;}
+    #morse .list-group img {width: 80%;/* margin-right: 5px; */}
+    #morse a p {display: none;}
+    #line h2.lead {font-size: 22px;padding: 0px;}
+    footer img {width: 60%;}
+}
+@media (min-width: 481px) and (max-width: 713px) {
+    #video-area .contents {padding: 50px 0}
+    #video-area .contents h1 {font-size: 38px;font-weight: 600;margin-top: 70px;margin-bottom: 0px;line-height: 70px;}
+    #video-area .contents h2 {font-size: 26px;margin-top: 0px;}
+    #marketing .list-group img {width: 100%;/* margin-right: 5px; */}
+    #marketing a p {display: none;}
+    #partner h2 {font-size: 38px;}
+    #morse .list-group img {width: 80%;/* margin-right: 5px; */}
+    #morse a p {display: none;}
+    #line h2.lead {font-size: 22px;padding: 0px;}
+    footer img {width: 60%;}
+}
+
 /*首頁頁面調整(手機畫面)*/
 @media (max-width: 480px) and (min-width: 320px){
     /*整題顯示效果*/
+    #video-area .contents {padding: 152px 0;}
     p {font-size: 14px;}
     /*首頁大圖標題區塊*/
     #video-area .contents h1 {padding-top: 70px;}
-    #video-area h2 {font-size: 18px;}
+    #video-area .contents h2 {font-size: 18px;margin-top: -5px;}
     /*關於亞特立區塊*/
     h6.font-weight-bold {font-size: 14px;}
     /*數位行銷產品介紹區塊*/

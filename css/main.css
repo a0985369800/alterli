@@ -306,7 +306,7 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 #video-area .contents {
-  padding: 300px 0;
+  padding: 200px 0;
 }
 #video-area .contents h1 {
   color: #fff;

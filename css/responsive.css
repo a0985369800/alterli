@@ -1,9 +1,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .section-header .section-title {
-    font-size: 22px;
-  }
+    font-size: 34px;font-weight: 600;
+    }
   #video-area .contents h1 {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 48px;
   }
   .navbar-light .navbar-nav .nav-link {

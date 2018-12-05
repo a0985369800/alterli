@@ -14,6 +14,9 @@
 #morse a {background: #ccc;color: #fff;}
 #morse a p {margin: 10px;}
 #morse #nav-tabContent img {margin: 0 30% 0 30%;}
+/*line區塊*/
+#line ul{padding-bottom: 15px;}
+#line li {color: #fff;margin-left: 40px;margin-bottom: 5px;font-size: 18px;list-style-type:disc;}
 /*footer區塊*/
 footer img {width: 40%;}
 footer p {color: #fff;margin-top: 20px;}
